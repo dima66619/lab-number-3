@@ -63,39 +63,39 @@
 # except ValueError:
 #     print("Помилка: введіть, будь ласка, ціле число.")
 # #task 190
-try:
-    a = int(input("Введіть перше число: "))
-    b = int(input("Введіть друге число: "))
-    c = int(input("Введіть третє число: "))
+# try:
+#     a = int(input("Введіть перше число: "))
+#     b = int(input("Введіть друге число: "))
+#     c = int(input("Введіть третє число: "))
 
-    if a >= b and a >= c:
-        maximum = a
-        if b >= c:
-            middle = b
-            minimum = c
-        else:
-            middle = c
-            minimum = b
-    elif b >= a and b >= c:
-        maximum = b
-        if a >= c:
-            middle = a
-            minimum = c
-        else:
-            middle = c
-            minimum = a
-    else:
-        maximum = c
-        if a >= b:
-            middle = a
-            minimum = b
-        else:
-            middle = b
-            minimum = a
+#     if a >= b and a >= c:
+#         maximum = a
+#         if b >= c:
+#             middle = b
+#             minimum = c
+#         else:
+#             middle = c
+#             minimum = b
+#     elif b >= a and b >= c:
+#         maximum = b
+#         if a >= c:
+#             middle = a
+#             minimum = c
+#         else:
+#             middle = c
+#             minimum = a
+#     else:
+#         maximum = c
+#         if a >= b:
+#             middle = a
+#             minimum = b
+#         else:
+#             middle = b
+#             minimum = a
             
-    print(maximum)
-    print(minimum)
-    print(middle)
+#     print(maximum)
+#     print(minimum)
+#     print(middle)
 
-except ValueError:
-    print("Помилка: введіть, будь ласка, ціле число.")
+# except ValueError:
+#     print("Помилка: введіть, будь ласка, ціле число.")
